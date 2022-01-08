@@ -3,15 +3,15 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseurl: 'https://example.com/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+title: Christian Kragh Jespersen # Website name
+baseurl: 'https://astrockragh.github.io/ ' # Website URL, remember trailing slash
+copyright: '© Christian Kragh Jespersen 2022 '
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: 'en'
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
