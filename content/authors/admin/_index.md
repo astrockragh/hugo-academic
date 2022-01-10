@@ -6,11 +6,13 @@ title: Christian Kragh Jespersen
 superuser: true
 
 # Role/position/tagline
-role: Astrophysics PhD Student
+role: PhD Student in Astrophysical Sciences
 
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Princeton University
+  url: https://www.Princeton.edu/
+- name: Department of Astrophysical Sciences
   url: https://www.Princeton.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -26,7 +28,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Astrophysics
+  - course: PhD in Astrophysicical Sciences
     institution: Princeton University
     year: 2026
   - course: BSc in Physics
@@ -47,6 +49,9 @@ social:
 - icon: ads # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://ui.adsabs.harvard.edu/search/q=author%3A%22Jespersen%2C%20Christian%20K.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-8896-6496
 - icon: github
   icon_pack: fab
   link: https://github.com/astrockragh
@@ -71,8 +76,16 @@ email: ""
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD/Graduate I am a Graduate Student at the working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University.
+I work on applying Machine Learning and new statistical methods to astrophysical areas of interest, preferably where they have never been tried before. My main astrophysical interests lie far outside the Milky Way, but I am widely interested in almost all areas of astronomy. <br/>
+I am currently affiliated with multiple research groups including the <a href="https://astro-data-lab.github.io/">Astro Data Lab</a>, led by <a href="https://pmelchior.net/">Peter Melchior</a>, and the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/cosmology-x-data-science/"> Cosmology x Data-science</a> group at the 
+<a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
+<a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Originally from Denmark, I can currently be found either in office 12 in the infamous graduate student basement
+in Peyton Hall in Princeton, or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> 
+in New York City.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+
+ <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

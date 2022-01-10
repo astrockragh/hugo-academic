@@ -7,10 +7,10 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 30
 
-title: 'Recent & Upcoming Talks'
-subtitle:
+title: 'Upcoming Talks'
+subtitle: Previously given talks can be found at '### insert later '###
 
 content:
   # Page type to display. E.g. post, event, publication...

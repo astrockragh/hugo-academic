@@ -32,7 +32,7 @@ authors:
 - admin
 
 tags:
-- Introduction, Personal
+- Introduction
 
 categories:
 - Personal
