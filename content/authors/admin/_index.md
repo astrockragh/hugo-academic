@@ -76,13 +76,15 @@ email: ""
 highlight_name: true
 ---
 
-I am a PhD/Graduate I am a Graduate Student at the working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University.
+I am a PhD/Graduate Student working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University.
 I work on applying Machine Learning and new statistical methods to astrophysical areas of interest, preferably where they have never been tried before. My main astrophysical interests lie far outside the Milky Way, but I am widely interested in almost all areas of astronomy. <br/>
 I am currently affiliated with multiple research groups including the <a href="https://astro-data-lab.github.io/">Astro Data Lab</a>, led by <a href="https://pmelchior.net/">Peter Melchior</a>, and the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/cosmology-x-data-science/"> Cosmology x Data-science</a> group at the 
 <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
 <a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>.
 
-Originally from Denmark, I can currently be found either in office 12 in the infamous graduate student basement
+Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021.
+
+Currently, I can be found in the infamous graduate student basement
 in Peyton Hall in Princeton, or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> 
 in New York City.
 
