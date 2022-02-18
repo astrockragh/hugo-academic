@@ -9,12 +9,12 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: 'Upcoming Talks'
-subtitle: Previously given talks can be found at '### insert later '###
+title: 'Recent and Upcoming talks'
+subtitle: '(that I remember)'
 
 content:
   # Page type to display. E.g. post, event, publication...
-  page_type: event
+  page_type: talk
   # Choose how many pages you would like to display (0 = all pages)
   count: 5
   # Filter on criteria

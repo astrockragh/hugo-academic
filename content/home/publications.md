@@ -1,6 +1,8 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
+
+#how to update https://wowchemy.com/docs/content/publications/, i.e pip3 install -U academic, academic import --bibtex static/publications.bib, and then correct weird characters, otherwise it won't load
 widget: pages
 
 # This file represents a page section.
@@ -25,7 +27,7 @@ content:
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
-  count: 0
+  count: 3
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
