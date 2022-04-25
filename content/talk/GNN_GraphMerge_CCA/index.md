@@ -21,7 +21,7 @@ draft: false
 publishDate: "2022-03-10T00:00:00Z"
 
 authors: []
-tags: []
+tags: [invited]
 
 # Is this a featured talk? (true/false)
 featured: false
