@@ -17,7 +17,7 @@ draft: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2022-01-01T00:00:00Z"
 
-authors: []
+authors: [invited]
 tags: []
 
 # Is this a featured talk? (true/false)
