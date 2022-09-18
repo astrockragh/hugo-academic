@@ -11,7 +11,7 @@ copyright: '© Christian Kragh Jespersen 2022'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: 'en'
+defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
@@ -43,7 +43,7 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]  ##remove, hugo mod clean, hugo mod tidy, add back in, hugo 
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
@@ -67,4 +67,6 @@ related:
     - name: categories
       weight: 70
 security:
+  _merge: deep
+sitemap:
   _merge: deep

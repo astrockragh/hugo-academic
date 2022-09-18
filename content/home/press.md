@@ -1,21 +1,44 @@
 ---
-widget: blank
+# An instance of the Pages widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: pages
 
+# This file represents a page section.
 headless: true
 
-weight: 60
+# Order that this section appears on the page.
+weight: 55
 
-title: Press
+active: true
 
-active: false
+title: 'Press and Public Talks'
 
-design: 
-    - columns: 1
+content:
+  # Page type to display. E.g. post, event, publication...
+  page_type: event
+  # Choose how many pages you would like to display (0 = all pages)
+  count: 4
+  # Filter on criteria
+  filters:
+    folders:
+        - press
+    author: ""
+    category: ""
+    tag: ""
+    exclude_featured: false
+    exclude_future: false
+    exclude_past: false
+    publication_type: ""
+  # Choose how many pages you would like to offset by
+  offset: 0
+  # Page order: descending (desc) or ascending (asc) date.
+  order: desc
+
+design:
+  # Choose a view for the listings:
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view: 1
 ---
-
-## Solving the long - standing GRB classification problems
-
-
-Appears on: ESO | Sky at Night Magazine | SCI NEWS
-
-{{< gallery-slider dir="/ngc7252_news" auto-slide="5000" width="720px" height="500px" >}}
