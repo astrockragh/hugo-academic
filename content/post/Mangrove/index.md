@@ -27,6 +27,8 @@ slides: ""
 
 ![Mangrove's Logo](featured_old.png)
 
+First of all, I've written two versions of this post, this one is a little easier to understand (less jargon) and more fun! The other version can be found under "Research".
+
 ## Motivation
 
 When scientists discover something, there are three main things that we tend to ask ourselves.
