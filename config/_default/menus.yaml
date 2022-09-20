@@ -19,7 +19,7 @@ main:
   - name: Publications
     url: '#publications'
     weight: 50
-  - name: Press
+  - name: Press and Public Talks
     url: '#press'
     weight: 60
   - name: Contact

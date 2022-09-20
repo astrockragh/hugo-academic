@@ -1,5 +1,5 @@
 ---
-title: Learning Baryonic Physics from Complete Merger Histories
+title: Learning Baryonic Physics from Complete Merger Histories @Universite de Montreal
 
 event: Student seminar series at the University of Montreal
 
@@ -30,7 +30,7 @@ image:
   caption: 'True-Predicted plot when using our model (left), and the traditional Abundance Matching approach (right), for regressing stellar mass'
   focal_point: Right
 
-url_code: "https://github.com/astrockragh/GraphMerge"
+url_code: "https://github.com/astrockragh/Mangrove"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -48,7 +48,7 @@ slides: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- GraphMerge
+- Mangrove
 ---
 <!-- 
 {{% callout note %}}
