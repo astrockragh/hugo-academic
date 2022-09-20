@@ -11,12 +11,12 @@ role: PhD Student in Astrophysical Sciences
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Princeton University
-  url: https://www.Princeton.edu/
+  url: https://www.princeton.edu/
 - name: Department of Astrophysical Sciences
-  url: https://www.Princeton.edu/
+  url: https://web.astro.princeton.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests are at the intersection between Machine Learning, galaxy formation and evolution and cosmology
 
 # Interests to show in About widget
 interests:

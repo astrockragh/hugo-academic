@@ -15,13 +15,11 @@ title: 'Press and Public Talks'
 
 content:
   # Page type to display. E.g. post, event, publication...
-  page_type: event
+  page_type: press_public
   # Choose how many pages you would like to display (0 = all pages)
-  count: 4
+  count: 0
   # Filter on criteria
   filters:
-    folders:
-        - press
     author: ""
     category: ""
     tag: ""
@@ -40,5 +38,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 1
+  view: 3
 ---

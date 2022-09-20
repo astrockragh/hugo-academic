@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
+day_night: true
 theme_day: minimal
 theme_night: minimal
 font: minimal
@@ -42,7 +42,7 @@ locale:
     - r
     - latex
   math: true
-  diagram: false
+  diagram: true
   privacy_pack: false
   edit_page:
     repo_url: ''
@@ -59,7 +59,7 @@ locale:
     project: true
     publication: true
     event: true
-  reading_time: true
+  reading_time: false
   section_pager: false
   docs_section_pager: true
   sharing: true
@@ -69,14 +69,14 @@ locale:
     share_alike: true
     allow_commercial: false
     notice: 'This work is licensed under {license}'
-  abstract_length: 135
+  abstract_length: 150
   plugins_js: []
   avatar:
     gravatar: false
     shape: circle
   publications:
     date_format: January 2006
-    citation_style: apa
+    citation_style: bibtex
   projects:
     post_view: 2
     publication_view: 2
