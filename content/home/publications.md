@@ -11,7 +11,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Recent Publications
+title: Publications
 subtitle: ''
 
 content:
@@ -38,6 +38,4 @@ design:
   columns: '2'
 ---
 
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
+I would never keep everything here up to date, so instead look at the amazing [NASA/ADS](https://ui.adsabs.harvard.edu/search/q=((author%3A%22Jespersen%2C%20Christian%20K.%22%20or%20author%3A%22Kragh%20Jespersen%2C%20Christian%22)%20AND%20year%3A2020-2023)&sort=date%20desc%2C%20bibcode%20desc&p_=0) service. Some times, web services track my name as "Kragh Jespersen, Christian", sometimes as "Jespersen, Christian Kragh" (which is the correct form), and sometimes as "Jespersen, Christian K.", so I recommend using the above link to get correct results.
