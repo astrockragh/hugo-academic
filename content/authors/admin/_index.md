@@ -6,7 +6,7 @@ title: Christian Kragh Jespersen
 superuser: true
 
 # Role/position/tagline
-role: PhD Student in Astrophysical Sciences
+role: PhD Candidate in Astrophysical Sciences
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -86,7 +86,7 @@ I am currently affiliated with multiple research groups including the <a href="h
 <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
 <a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>. <br/>
 
-I am currently a member of the [Prime Focus Spectrograph (PFS)](https://pfs.ipmu.jp/) spectroscopic survey collaboration, the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration (LSST-DESC)](https://rubinobservatory.org/).
+I am currently a member of the [Prime Focus Spectrograph (PFS)](https://pfs.ipmu.jp/) spectroscopic survey collaboration, the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration (LSST-DESC)](https://lsstdesc.org/).
 
 
 Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
@@ -94,6 +94,8 @@ Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr In
 Currently, I can be found in the infamous graduate student basement
 in Peyton Hall in Princeton, or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> in New York City.
 
+I am very passionate about showing our wonderful universe to the public, and I frequently lead the [public observing nights at Peyton Hall](https://www.astro.princeton.edu/observatory/publicobserving.php), and I give outreach talks at [Astronomy On Tap Trenton](https://astronomyontap.org/locations/trenton-nj/).
 
+Outside of academia, I like rock climbing, gardening and all kinds of surfing. I even like gardening so much that I have ended up being the coordinator of my [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/).
 
  <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

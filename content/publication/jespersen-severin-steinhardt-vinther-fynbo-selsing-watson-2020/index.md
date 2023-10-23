@@ -1,24 +1,22 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: An Unambiguous Separation of Gamma-Ray Bursts into Two Classes from Prompt
-  Emission Alone
-subtitle: ''
+title: I could never keep everything here up to date
 summary: ''
 authors:
-- Christian K. Jespersen
-- Johann B. Severin
-- Charles L. Steinhardt
-- Jonas Vinther
-- Johan P. U. Fynbo
-- Jonatan Selsing
-- Darach Watson
+- Christian Kragh Jespersen
+- Miles Cranmer
+- Peter Melchior
+- Shirley Ho
+- Rachel S. Somerville
+- Austen Gabrielpillai
+
 tags: []
 categories: []
-date: '2020-06-01'
-lastmod: 2022-02-18T13:26:36-05:00
+date: '2022-12-01'
+lastmod: 2023-10-23T13:26:36-05:00
 featured: false
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -34,10 +32,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-02-18T18:26:36.288544Z'
+publishDate: '2022-12-01T18:26:36.288544Z'
 publication_types:
 - '2'
 abstract: ''
 publication: '*The Astrophysical Journal*'
-doi: 10.3847/2041-8213/ab964d
+doi:  10.3847/1538-4357/ac9b18
 ---

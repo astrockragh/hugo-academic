@@ -12,9 +12,6 @@ subtitle: Please reach out to me if you have any questions regarding science or 
 # Order that this section appears on the page.
 weight: 60
 
-
-
-
 content:
   # Automatically link email and phone or display as text?
   email: ckragh@princeton.edu

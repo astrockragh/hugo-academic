@@ -1,15 +1,21 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Investigating Radius Increases in Hot Exoplanets
+title: An Unambiguous Separation of Gamma-Ray Bursts into Two Classes from Prompt
+  Emission Alone
 subtitle: ''
 summary: ''
 authors:
-- C. K. Jespersen
-- D. J. Stevenson
+- Christian K. Jespersen
+- Johann B. Severin
+- Charles L. Steinhardt
+- Jonas Vinther
+- Johan P. U. Fynbo
+- Jonatan Selsing
+- Darach Watson
 tags: []
 categories: []
-date: '2020-01-01'
+date: '2020-06-01'
 lastmod: 2022-02-18T13:26:36-05:00
 featured: false
 draft: true
@@ -28,9 +34,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-02-18T18:26:36.128513Z'
+publishDate: '2022-02-18T18:26:36.288544Z'
 publication_types:
 - '2'
 abstract: ''
-publication: ''
+publication: '*The Astrophysical Journal*'
+doi: 10.3847/2041-8213/ab964d
 ---

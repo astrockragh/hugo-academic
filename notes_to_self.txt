@@ -1,0 +1,10 @@
+The following error does not matter, the website still builds:
+
+hugo v0.95.0-9F2E76AF+extended darwin/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio
+WARNING: calling IsSet with unsupported type "invalid" (<nil>) will always return false.
+Error: Error copying static files: chmod /Users/chri862z/hugo-academic/public/webfonts/fa-v4compatibility.ttf: operation not permitted
+
+
+In order to upload, build the website in the "hugo_academic" folder, and then push the "public" repo to github. The website will update in ~10 minutes.
+
+Otherwise, use "hugo server" to get a preview before pushing.
