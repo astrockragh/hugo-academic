@@ -20,7 +20,7 @@ content:
   email: ckragh@princeton.edu
   # phone: +1 (609) 356 8551
   address:
-    street: Peyton Hall, Department of Astrophysical Sciences, 4 Ivy Ln
+    street: Peyton Hall, Department of Astrophysical Sciences, 4 Ivy Ln, Office 023A
     city: Princeton
     region: NJ
     postcode: '08544'

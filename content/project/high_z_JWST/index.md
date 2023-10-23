@@ -1,29 +1,26 @@
 ---
-title: Classifying Gamma-Ray Bursts into Two Classes using t-SNE
-summary: We solve the long-standing problem of the overlapping distributions of long and short Gamma-Ray Bursts using Machine Learning
+title: The highest redshift galaxy we will find with JWST
+summary: We show that the highest redshift galaxies detected with the James Webb Space Telescope, will have a highly skewed distribution due to galaxy clustering, which can be quantified through an effect known as **cosmic variance**.
 tags:
-- Machine Learning
-date: "2022-01-20T00:00:00Z"
-draft: true
+- Galaxies
+- Cosmology
+date: "2023-10-23T00:00:00Z"
+draft: false
 featured: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: t-SNE mapping of Swift light curves, colored based on duration
+  caption: Galaxies from the James Webb Space Telescope
   focal_point: Smart
 
 links:
-url_code: "https://github.com/astrockragh/GRB_TSNE"
-url_pdf: "https://iopscience.iop.org/article/10.3847/2041-8213/ab964d/pdf"
+url_pdf: "https://ui.adsabs.harvard.edu/abs/2021ApJ...923....8S/abstract"
 
 slides: ""
 
 ---
 
-The duration of a gamma-ray burst (GRB) is a key indicator of its physical origin, with long bursts perhaps associated with the collapse of massive stars and short bursts with mergers of neutron stars. 
-However, there is substantial overlap in the properties of both short and long GRBs and neither duration nor any other parameter so
-far considered completely separates the two groups. Here we unambiguously classify every GRB using a machinelearning dimensionality reduction algorithm, t-distributed stochastic neighborhood embedding, providing a catalog separating all Swift GRBs into two groups. Although the classification takes place only using prompt emission light curves, every burst with an associated supernova is found in the longer group and bursts with kilonovae in the short, suggesting along with the duration distributions that these two groups are truly long and short GRBs. 
-Two bursts with a clear absence of a supernova belong to the longer class, indicating that these might have been directcollapse black holes, a proposed phenomenon that may occur in the deaths of more massive stars
+One of the primary goals for the upcoming James Webb Space Telescope is to observe the first galaxies. Predictions for planned and proposed surveys have typically focused on average galaxy counts, assuming a random distribution of galaxies across the observed field. The first and most-massive galaxies, however, are expected to be tightly clustered, which can be quantified through an effect known as **cosmic variance**. We show that cosmic variance is likely to be the dominant contribution to uncertainty for high-redshift mass and luminosity functions, and that median high-redshift and high-mass galaxy counts for planned observations lie significantly below average counts. Several different strategies are considered for improving our understanding of the first galaxies, including adding depth, area, and independent pointings. Adding independent pointings is shown to be the most efficient both for discovering the single highest-redshift galaxy and also for constraining mass and luminosity functions.
 
