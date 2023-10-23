@@ -23,6 +23,7 @@ interests:
 - Machine Learning
 - Galaxy Evolution
 - Transients
+- Spectroscopy
 - Cosmology
 
 # Education to show in About widget
@@ -31,6 +32,9 @@ education:
   - course: PhD in Astrophysicical Sciences
     institution: Princeton University
     year: 2026
+  - course: MA in Astrophysicical Sciences
+    institution: Princeton University
+    year: 2023
   - course: BSc in Physics
     institution: University of Copenhagen
     year: 2021
@@ -76,17 +80,19 @@ email: ""
 highlight_name: true
 ---
 
-I am a PhD/Graduate Student working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University.
-I work on applying Machine Learning and new statistical methods to astrophysical areas of interest, preferably where they have never been tried before. My main astrophysical interests lie far outside the Milky Way, but I am widely interested in almost all areas of astronomy. <br/>
+I am a 3rd-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University advised by <a href="https://pmelchior.net/">Peter Melchior</a> and David N. Spergel.
+I work on applying Machine Learning and new statistical methods to astrophysics, preferably where they have never been tried before. My main astrophysical interests are extragalactic, but I am widely interested in almost all areas of astronomy. My thesis will focus on constructing a link between low-dimensional representations made from dark-matter only cosmological simulations and observed galaxy spectra.<br/>
 I am currently affiliated with multiple research groups including the <a href="https://astro-data-lab.github.io/">Astro Data Lab</a>, led by <a href="https://pmelchior.net/">Peter Melchior</a>, and the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/cosmology-x-data-science/"> Cosmology x Data-science</a> group at the 
 <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
-<a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>.
+<a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>. <br/>
 
-Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021.
+I am currently a member of the [Prime Focus Spectrograph (PFS)](https://pfs.ipmu.jp/) spectroscopic survey collaboration, the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration (LSST-DESC)](https://rubinobservatory.org/).
+
+
+Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
 
 Currently, I can be found in the infamous graduate student basement
-in Peyton Hall in Princeton, or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> 
-in New York City.
+in Peyton Hall in Princeton, or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> in New York City.
 
 
 
