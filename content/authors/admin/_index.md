@@ -16,15 +16,16 @@ organizations:
   url: https://web.astro.princeton.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests are at the intersection between Machine Learning, galaxy formation and evolution and cosmology
+bio: My research interests are at the intersection between Machine Learning, galaxy formation and evolution, big surveys, and cosmology
 
 # Interests to show in About widget
 interests:
 - Machine Learning
 - Galaxy Evolution
-- Transients
 - Spectroscopy
+- Terrestrial airglow
 - Cosmology
+- Transients
 
 # Education to show in About widget
 education:
@@ -47,15 +48,21 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:ckragh@princeton.edu'
-- icon: google-scholar 
-  icon_pack: ai
+- icon: scroll 
+  icon_pack: fas
   link: https://scholar.google.com/citations?view_op=list_works&hl=en&user=0FjNowwAAAAJ
-- icon: ads # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: ai
-  link: https://ui.adsabs.harvard.edu/search/q=author%3A%22Jespersen%2C%20Christian%20K.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0002-8896-6496
+- icon: book 
+  icon_pack: fas
+  link: https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=((author%3A%22Jespersen%2C%20Christian%20K.%22%20or%20author%3A%22Kragh%20Jespersen%2C%20Christian%22)%20AND%20year%3A2020-)&sort=date%20desc%2C%20bibcode%20desc&p_=0
+
+# ai pack and fa-brands does not work as off 2024, I've made up some approximate replacements, see above
+
+# - icon: ads # Alternatively, use `google-scholar` icon from `ai` icon pack
+#   icon_pack: ai
+#   link: https://ui.adsabs.harvard.edu/search/q=author%3A%22Jespersen%2C%20Christian%20K.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+# - icon: orcid
+#   icon_pack: ai
+#   link: https://orcid.org/0000-0002-8896-6496
 - icon: github
   icon_pack: fab
   link: https://github.com/astrockragh
@@ -80,22 +87,17 @@ email: ""
 highlight_name: true
 ---
 
-I am a 3rd-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University advised by <a href="https://pmelchior.net/">Peter Melchior</a> and David N. Spergel.
-I work on applying Machine Learning and new statistical methods to astrophysics, preferably where they have never been tried before. My main astrophysical interests are extragalactic, but I am widely interested in almost all areas of astronomy. My thesis will focus on constructing a link between low-dimensional representations made from dark-matter only cosmological simulations and observed galaxy spectra.<br/>
+I am a 4th-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University. I am advised by <a href="https://pmelchior.net/">Peter Melchior</a> and <a href="https://en.wikipedia.org/wiki/David_Spergel"> David N. Spergel </a>.
+I work on applying Machine Learning and new statistical methods to astrophysics. My main astrophysical interests are extragalactic, but I am widely interested in almost all areas of astronomy. My thesis is focusing on constructing a link between low-dimensional representations made from dark-matter only cosmological simulations and observed galaxy spectra. This will be done in part with data from the upcoming surveys using the <a href="https://pfs.ipmu.jp/"> Prime Focus Spectrograph (PFS) </a>, which I also spend a lot of time working on. For PFS, I mostly focus on learning more about the ways we can use the emission of the atmosphere itself, called [airglow](http://dx.doi.org/10.1117/12.3018016), to improve the performance of our surveys.  Outside of PFS, I am also a member of the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration (LSST-DESC)](https://lsstdesc.org/).<br/>
 I am currently affiliated with multiple research groups including the <a href="https://astro-data-lab.github.io/">Astro Data Lab</a>, led by <a href="https://pmelchior.net/">Peter Melchior</a>, and the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/cosmology-x-data-science/"> Cosmology x Data-science</a> group at the 
 <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
-<a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>. <br/>
+<a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>. <br/> I can be found in the infamous graduate student basement
+in Peyton Hall in Princeton (office 023A, Danish flags on the door), or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> in New York City.
 
-I am currently a member of the [Prime Focus Spectrograph (PFS)](https://pfs.ipmu.jp/) spectroscopic survey collaboration, the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration (LSST-DESC)](https://lsstdesc.org/).
-
-
+I am very passionate about showing our wonderful universe to the public, and I frequently lead the [public observing nights at Peyton Hall](https://www.astro.princeton.edu/observatory/publicobserving.php), and I give outreach talks at [Astronomy On Tap Trenton](https://astronomyontap.org/locations/trenton-nj/).<br/>
+Outside of academia, I like all things to do with mountains (climbing, hiking, camping), with oceans/water (sailing, swimming, windsurfing), and gardening. I even like gardening so much that I have ended up being the coordinator of my [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/).<br/>
 Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
 
-Currently, I can be found in the infamous graduate student basement
-in Peyton Hall in Princeton, or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> in New York City.
-
-I am very passionate about showing our wonderful universe to the public, and I frequently lead the [public observing nights at Peyton Hall](https://www.astro.princeton.edu/observatory/publicobserving.php), and I give outreach talks at [Astronomy On Tap Trenton](https://astronomyontap.org/locations/trenton-nj/).
-
-Outside of academia, I like rock climbing, gardening and all kinds of surfing. I even like gardening so much that I have ended up being the coordinator of my [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/).
+Last updated October 1st, 2024.
 
  <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

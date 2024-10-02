@@ -5,6 +5,7 @@ WARNING: calling IsSet with unsupported type "invalid" (<nil>) will always retur
 Error: Error copying static files: chmod /Users/chri862z/hugo-academic/public/webfonts/fa-v4compatibility.ttf: operation not permitted
 
 
-In order to upload, build the website in the "hugo_academic" folder, and then push the "public" repo to github. The website will update in ~10 minutes.
+In order to upload, build the website in the "hugo_academic" directory, and then git push the "public" repo to github. The website will update in ~10 minutes.
+The site is built by running "hugo" in the terminal within the "hugo_academic" directory.
 
-Otherwise, use "hugo server" to get a preview before pushing.
+Otherwise, use "hugo server" in the terminal to get a preview before pushing. This can be run within the hugo-academic directory, not the public directory.
