@@ -26,10 +26,11 @@ main:
     url: '#contact'
     weight: 70
   - name: CV
-    url: static/uploads/CV_example.pdf
+    url: uploads/CV_Mar2024.pdf
     weight: 80
+  # - name: CV
+  #   url: static/uploads/CV_example.pdf
+  #   weight: 80
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+

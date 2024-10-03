@@ -1,0 +1,23 @@
+---
+# put the abstract below the line
+abstract: 
+url_pdf: ""
+title: "The most massive galaxy we will find with JWST @IAP Symposium"
+location: Paris, France
+date: 2024-12-03T12:15:00.000Z
+# date_end: 2022-01-12T15:00:00.000Z
+all_day: false
+featured: false
+authors: []
+links: []
+publishDate: 2024-09-27T00:00:00.000Z
+tags: [Contributed]
+projects:
+  - most_massive_jwst
+image:
+  caption: ""
+  focal_point: Center
+  filename: featured.png
+# url_pdf: "https://ui.adsabs.harvard.edu/abs/2022ApJS..258...11W/abstract"
+---
+

@@ -1,5 +1,5 @@
 ---
-title: Learning Baryonic Physics from Complete Merger Histories @Universite de Montreal
+title: Learning Baryonic Physics from Complete Merger Histories @Université de Montréal
 
 event: Student seminar series at the University of Montreal
 
