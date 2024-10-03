@@ -18,7 +18,7 @@ image:
 
 links:
 url_code: "https://github.com/astrockragh/icecube"
-url_pdf: "/project/neutrino_ML/Bachelor_Project.pdf"
+url_pdf: "/uploads/Bachelor_Project.pdf"
 
 slides: ""
 
