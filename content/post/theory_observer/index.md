@@ -77,7 +77,7 @@ My academic profile is a bit weird, mostly because it is very multi-faceted. Thi
 
 I also think of astrophysics as being a fundamentally composite science, in need of broad skill-sets, and when I look at the true greats of the field, I see people who skillfully spanned everything from theory to hardware-building.[^1]
 
-Of course, I do not span everything, so I have tried to summarise how I see my skill-set as of October 3rd, 2024. The results can be seen in the above radar graph.
+Of course, I do not span everything, and for the things I do, not to the same extent, so I have tried to summarise how I see my skill-set as of October 3rd, 2024. The results can be seen in the below radar graph.
 
 ![A radar chart of my skills](radar_chart_2.png)
 
