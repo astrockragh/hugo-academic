@@ -7,7 +7,7 @@ location: Tivoli
 
 summary: We were interviewed by one of the two main Danish channels about our project on classifying gamma ray bursts. Check it out at https://nyheder.tv2.dk/samfund/2020-08-21-tre-danske-studerende-har-loest-astronomisk-mysterium-folk-ringer-fra-hele-verden
 
-abstract: "We were interviewed by one of the two main Danish channels about our project on classifying gamma ray bursts. Trying to communicate it theCheck it out at https://nyheder.tv2.dk/samfund/2020-08-21-tre-danske-studerende-har-loest-astronomisk-mysterium-folk-ringer-fra-hele-verden, along with a variety of different random clips from Danish Morning TV.
+abstract: "We were interviewed by one of the two main Danish channels about our project on classifying gamma ray bursts. Trying to communicate it to the public was really interesting. Check it out at https://nyheder.tv2.dk/samfund/2020-08-21-tre-danske-studerende-har-loest-astronomisk-mysterium-folk-ringer-fra-hele-verden, along with a variety of different random clips from Danish Morning TV.
 
 Fun fact: even at 7 am in the morning, most TV presenters actually are not allowed to have coffee or tea in their mugs - it is usually water, which feels weird to drink from a mug. Also, the interview space is in the middle a theme park (Tivoli)!"
 # Talk start and end times.
