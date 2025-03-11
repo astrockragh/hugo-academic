@@ -94,10 +94,10 @@ I am currently affiliated with multiple research groups including the <a href="h
 <a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>. <br/> I can be found in the infamous graduate student basement
 in Peyton Hall in Princeton (office 023A, Danish flags on the door), or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> in New York City.
 
-I am very passionate about showing our wonderful universe to the public, and I frequently lead the [public observing nights at Peyton Hall](https://www.astro.princeton.edu/observatory/publicobserving.php), and I give outreach talks at [Astronomy On Tap Trenton](https://astronomyontap.org/locations/trenton-nj/).<br/>
+I love showing our wonderful universe to the public, and I frequently lead the [public observing nights at Peyton Hall](https://www.astro.princeton.edu/observatory/publicobserving.php), and I give outreach talks at [Astronomy On Tap Trenton](https://astronomyontap.org/locations/trenton-nj/).<br/>
 Outside of academia, I like all things to do with mountains (climbing, hiking, camping), with oceans/water (sailing, swimming, windsurfing), and gardening. I even like gardening so much that I have ended up being the coordinator of my [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/).<br/>
 Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
 
-Last updated October 1st, 2024.
+Last updated Mar 10th, 2025.
 
  <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
