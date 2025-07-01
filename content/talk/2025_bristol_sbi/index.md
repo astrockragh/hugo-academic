@@ -8,7 +8,7 @@ location: Bristol University
 date: 2025-05-27T13:30:00.000Z
 # date_end: 2022-01-12T15:00:00.000Z
 all_day: false
-event: CCA Cosmology X ML meeting 
+event: Simulation Based Inference for Galaxy Evolution
 # event_url: https://aas.org/meetings/aas239
 featured: false
 authors: []

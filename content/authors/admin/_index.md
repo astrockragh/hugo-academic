@@ -71,7 +71,7 @@ social:
   link: https://twitter.com/AstroCKragh
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/christian-kragh-j-24556a12a/
+  link: https://www.linkedin.com/in/christian-k-j-24556a12a/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -98,6 +98,6 @@ I love showing our wonderful universe to the public, and I frequently lead the [
 Outside of academia, I like all things to do with mountains (climbing, hiking, camping), with oceans/water (sailing, swimming, windsurfing), and gardening. I even like gardening so much that I have ended up being the coordinator of my [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/).<br/>
 Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
 
-Last updated Mar 10th, 2025.
+Last updated Jun 1st, 2025.
 
  <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
