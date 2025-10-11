@@ -21,6 +21,5 @@ image:
   caption: ""
   focal_point: Right
   filename: featured.png
-# url_pdf: "https://ui.adsabs.harvard.edu/abs/2022ApJS..258...11W/abstract"
 ---
 
