@@ -20,7 +20,7 @@ bio: My research interests are at the intersection between Machine Learning, gal
 
 # Interests to show in About widget
 interests:
-- Machine Learning
+- (Geometric) Machine Learning
 - Galaxy Evolution
 - Spectroscopy
 - Terrestrial airglow
@@ -87,15 +87,17 @@ email: ""
 highlight_name: true
 ---
 
-I am a 5th and final-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University. I am advised by <a href="https://pmelchior.net/">Peter Melchior</a> and <a href="https://en.wikipedia.org/wiki/David_Spergel"> David N. Spergel </a>.
-I work on applying Machine Learning and new statistical methods to astrophysics. My main astrophysical interests are extragalactic, but I am widely interested in almost all areas of astronomy. My thesis is focusing on constructing a link between low-dimensional representations made from dark-matter only cosmological simulations and observed galaxy spectra. This will be done in part with data from the upcoming surveys using the <a href="https://pfs.ipmu.jp/"> Prime Focus Spectrograph (PFS) </a>, which I also spend a lot of time working on. For PFS, I mostly focus on learning more about the ways we can use the emission of the atmosphere itself, called [airglow](http://dx.doi.org/10.1117/12.3018016), to improve the performance of our surveys.  Outside of PFS, I am also a member of the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration (LSST-DESC)](https://lsstdesc.org/).<br/>
-I am currently affiliated with multiple research groups including the <a href="https://astro-data-lab.github.io/">Astro Data Lab</a>, led by <a href="https://pmelchior.net/">Peter Melchior</a>, and the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/cosmology-x-data-science/"> Cosmology x Data-science</a> group at the 
-<a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
-<a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>. <br/> I can be found in the infamous graduate student basement
-in Peyton Hall in Princeton (office 023A, Danish flags on the door), or at the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Center for Computational Astrophysics (CCA) </a> in New York City.
+I am a 5th and final-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University. I am advised by <a href="https://pmelchior.net/">Peter Melchior</a> and <a href="https://en.wikipedia.org/wiki/David_Spergel"> David N. Spergel</a>.
+I work on applying new statistical methods to astrophysics, integrating inductive biases, geometric and physical constraints into well-calibrated Bayesian and Machine Learning models. My main interests are extragalactic, but I am interested in almost all areas of astronomy (e.g., the molecular structure of interstellar dust). My thesis will focus on constructing a link between low-dimensional representations of dark-matter only cosmological simulations and observed galaxy spectra. This will be achieved with data from the <a href="https://pfs.ipmu.jp/"> Prime Focus Spectrograph (PFS)</a>, which I optimize by understanding and using the emission of the atmosphere itself ([airglow](http://dx.doi.org/10.1117/12.3018016)) to improve the instrument calibration. 
 
-I love showing our wonderful universe to the public, and I frequently lead the [public observing nights at Peyton Hall](https://www.astro.princeton.edu/observatory/publicobserving.php), and I give outreach talks at [Astronomy On Tap Trenton](https://astronomyontap.org/locations/trenton-nj/).<br/>
-Outside of academia, I like all things to do with mountains (climbing, hiking, camping), with oceans/water (sailing, swimming, windsurfing), and gardening. I even like gardening so much that I have ended up being the coordinator of my [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/).<br/>
+As you may be able to tell, I love integrating my science vertically, from instruments to analyses. In short, I like **modelling** and **measuring** (astronomy-related) things, so if you have problems meeting any of these criteria, I will be excited to work with you!
+
+Outside of PFS, I am also a member of the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration](https://lsstdesc.org/). I am affiliated with multiple research groups including the <a href="https://astro-data-lab.github.io/">Astro Data Lab</a>, led by <a href="https://pmelchior.net/">Peter Melchior</a>, and the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/cosmology-x-data-science/"> Cosmology x Data-science</a> group at the 
+<a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
+<a href="https://users.flatironinstitute.org/~sho/index.html"> Shirley Ho</a>. 
+
+I love showing our wonderful universe to the public, and I frequently lead the [public observing nights at Peyton Hall](https://www.astro.princeton.edu/observatory/publicobserving.php), and give outreach talks at [Astronomy On Tap Trenton](https://astronomyontap.org/locations/trenton-nj/).<br/>
+Outside of academia, I like all things to do with mountains, oceans, and gardening (I organize the [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/)).<br/>
 Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
 
 Last updated Oct 11th, 2025.
