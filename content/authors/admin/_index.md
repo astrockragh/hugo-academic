@@ -87,7 +87,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a 4th-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University. I am advised by <a href="https://pmelchior.net/">Peter Melchior</a> and <a href="https://en.wikipedia.org/wiki/David_Spergel"> David N. Spergel </a>.
+I am a 5th and final-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University. I am advised by <a href="https://pmelchior.net/">Peter Melchior</a> and <a href="https://en.wikipedia.org/wiki/David_Spergel"> David N. Spergel </a>.
 I work on applying Machine Learning and new statistical methods to astrophysics. My main astrophysical interests are extragalactic, but I am widely interested in almost all areas of astronomy. My thesis is focusing on constructing a link between low-dimensional representations made from dark-matter only cosmological simulations and observed galaxy spectra. This will be done in part with data from the upcoming surveys using the <a href="https://pfs.ipmu.jp/"> Prime Focus Spectrograph (PFS) </a>, which I also spend a lot of time working on. For PFS, I mostly focus on learning more about the ways we can use the emission of the atmosphere itself, called [airglow](http://dx.doi.org/10.1117/12.3018016), to improve the performance of our surveys.  Outside of PFS, I am also a member of the [Learning the Universe (LtU)](https://www.learning-the-universe.org/) collaboration and the [Legacy Survey of Space and Time Dark Energy Science Collaboration (LSST-DESC)](https://lsstdesc.org/).<br/>
 I am currently affiliated with multiple research groups including the <a href="https://astro-data-lab.github.io/">Astro Data Lab</a>, led by <a href="https://pmelchior.net/">Peter Melchior</a>, and the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/cosmology-x-data-science/"> Cosmology x Data-science</a> group at the 
 <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"> Flatiron Institute</a> led by 
@@ -98,6 +98,6 @@ I love showing our wonderful universe to the public, and I frequently lead the [
 Outside of academia, I like all things to do with mountains (climbing, hiking, camping), with oceans/water (sailing, swimming, windsurfing), and gardening. I even like gardening so much that I have ended up being the coordinator of my [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/).<br/>
 Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
 
-Last updated Jun 1st, 2025.
+Last updated Oct 11th, 2025.
 
  <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
