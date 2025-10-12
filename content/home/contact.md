@@ -19,8 +19,8 @@ content:
   address:
     street: Peyton Hall, Department of Astrophysical Sciences, 4 Ivy Ln, Office 023A
     city: Princeton
-    region: NJ
-    postcode: '08544'
+    region: NJ 
+    postcode: '08544 (Danish flags on the door)'
     country: United States
     country_code: US
   contact_links:
