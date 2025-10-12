@@ -58,7 +58,7 @@ Normal EVS makes the assumption that all galaxies are independent from each othe
 
 Every single one of these beautiful, ultra-massive, quiescent galaxies lives in an **overdensity**, regions with significantly more galaxies than average. The overdensities reflect the fact that galaxies **cluster**, i.e., they are not randomly distributed on the sky. However, until now,theoretical predictions have treated these galaxies as if they live in average, unclustered, environments.
 
-That’s like estimating the wealth of the richest person *in the world* by starting from the mean and spread in a random city. You're going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the below video
+That’s like estimating the wealth of the richest person *in the world* by starting from the mean and spread in a random city. You're going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the video below, where on of our galaxies of interest is marked in blue
 
 <video controls width="100%">
   <source src="/project/most_massive_environment/zoom_tour.mp4" type="video/mp4">
@@ -70,9 +70,7 @@ That’s like estimating the wealth of the richest person *in the world* by star
 
 ## The Insight That Changes Everything
 
-This paper introduces an extended version of EVS that includes a galaxy’s **environment** — specifically, the overdensity it lives in — when estimating the expected maximum stellar mass. Instead of marginalizing over environments (which dilutes everything), we condition on the known fact that the galaxy is in an extreme region.
-
-How?
+This paper introduces an extended version of EVS that includes a galaxy’s **environment** — specifically, the overdensity it lives in — when estimating the expected maximum stellar mass. Instead of marginalizing over environments (which dilutes everything), we condition on the known fact that the galaxy is in an extreme region. How?
 
 1. **Estimate the volume** of the overdensity using 3D redshift-space distributions.
 2. **Compute how overdense** such a volume could reasonably be expected to in the full survey — i.e., the distribution of **density percentile** `u_δ` given that we can fit N subvolumes of the same size as the overdensity into our survey.
