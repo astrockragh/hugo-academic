@@ -38,23 +38,45 @@ slides: ""
 
 ---
 
+Insert some overview and hyperlinks to the different sections here
+
 # The physics of galaxies in the baby Universe
 
-State-of-the-field, ultra high redshfit galaxy abundances being a tough thing to reproduce theoretically
+State-of-the-field, ultra high redshfit galaxy abundances being a tough thing to reproduce theoretically. (below is figure 11 from https://arxiv.org/pdf/2505.11263, cite this)
 
 ![A figure showing the observed luminosity function along with pre- and post-JWST models](/project/measuring_clustering_cosmic_variance/NaiduPrePostJWST.png)
 
-What models have been proposed so far. Focus on the most popular ones, meaning the bursty star formation and the feedback free model, which appropriate links and citations (for example https://arxiv.org/pdf/2305.02713, https://arxiv.org/pdf/2303.04827). You can also
+What models have been proposed so far to mitigate this. Focus on the most popular ones, meaning the bursty star formation and the feedback free model, which appropriate links and citations (for example https://arxiv.org/pdf/2305.02713, https://arxiv.org/pdf/2303.04827).
 
+![A figure showing the consequences of bursty star formation](/project/measuring_clustering_cosmic_variance/bursty_star_formation_guochao.png)
 
+Now a section on how these are all tuned to reproduce the luminosity or stellar mass functions starting from halo masses (the halo mass function HMF being the only thing we have down theoretically)
 
-We have struggled to explain how these galaxies could form stars so rapidly and shut off star formation this early. Theories have invoked extreme star formation efficiencies (close to 100%!), very exotic feedback mechanisms, or even modifications to our well-tested ΛCDM-cosmology. This has all come from statistical analyses of an idealized distribution of galaxies by total mass, the stellar mass function (SMF), using a technique called **Extreme Value Statistics (EVS)**, which is designed to ask the question:
+# So how can we know which model is right? Clustering!
 
-```What is the probability distribution for the mass of the most massive galaxy I will observe in a certain volume of the Universe```
+Section on how we can measure clustering
 
-# 
+## The traditional method - Halo Occupation Distribution
 
-Normal EVS makes the assumption that all galaxies are independent from each other --- but this just is not true!
+See Paquereau+ 2025 for the application in COSMOS-Web. "Given a random galaxy in a location, the 2-point correlation function describes the probability that another galaxy will be found within a given distance." (I want some kind of demonstration figure/video)
+
+However, JWST is almost perfectly constructed to not be able to measure correlation functions well, due to the small field of view. That's because correlation functions require continuous large volumes surveyed. Only one survey really allows us to do so, the COSMOS-Web survey. Include a description of the COSMOS-Web survey (area, depths, combination with cosmos_2020) 
+
+![The footprint of the COSMOS survey](/project/measuring_clustering_cosmic_variance/COSMOS_footprint.png)
+
+## The new method - Cosmic Variance
+
+While JWST is ideally unsuited for 2 point correlation functions and classical clustering analyses, we just need to be a little creative and come up with new ways of measuring clustering. Our new method leverages another consequence of high clustering --- that the number counts of galaxies between different fields vary increasingly with increasing clustering amplitudes. This clustering-induced field-to-field variance is known as **cosmic variance**, and it is something I have worked on extensively (references)
+
+Figure showing two-point correlation functions, Number count histograms and simulated fields for 3 differnt clustering strengths.
+
+Therefore, if we have enough sampled independent fields, we can .... . Luckily, JWST __IS__ ideally suited to this kind of observation through what is called the pure-parallel observing mode. 
+
+![PANORAMIC logo](PANORAMIC_logo.png)
+![Overview of the PANORAMIC pointings](PANORAMIC_footprint.png)
+
+#### The Likelihood Function
+
 
 ## The Real Question: Where Are These Galaxies Found?
 
