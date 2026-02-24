@@ -1,11 +1,11 @@
 ---
-title: Explaining Ultramassive Quiescent Galaxies at 3 < z < 5 in the Context of Their Environments
-summary: The existence of ultramassive quiescent galaxies, which have already completed their life cycle at a mere 7% of the age of the Universe, is among the most puzzling of recent discoveries. We provide a statistical argument for interpreting these observations in the context of their **environments**, which explains their accelerated formation.
+title: Constraining galaxy physics at Cosmic Dawn with Cosmic Variance 
+summary: Numerous models have been proposed to explain the unexpected wealth of galaxies at Cosmic Dawn revealed by JWST. These models are all tuned to reproduce the abundance of galaxies, requiring new measures to figure out which ones are actually right. An obvious candidate for these constraints come from clustering, but to do so with JWST requires innovating methodology. Here I show how clustering can be measured from pure-parallel JWST surveys, and how it gives us a unique handle on why galaxies seem to not be going through a wild and bursty teenage phase.
 tags:
 - Galaxies
 - Observations
-date: "2025-10-10T00:00:00Z"
-draft: false
+date: "2026-02-26T00:00:00Z"
+draft: true
 featured: true
 
 # Optional external URL for project (replaces project detail page).
@@ -17,40 +17,42 @@ image:
 
 links:
 
-- icon: github
-  icon_pack: fas
-  name: GitHub
-  url: https://github.com/astrockragh/evs_clustering
+# - icon: github
+#   icon_pack: fas
+#   name: GitHub
+#   url: https://github.com/astrockragh/evs_clustering
 
 - icon: book
   icon_pack: fas
   name: NASA/ADS
-  url: https://ui.adsabs.harvard.edu/abs/2025ApJ...988L..19J/abstract
+  url: https://ui.adsabs.harvard.edu/abs/2025arXiv251214212W/abstract
 
 - icon: quote-left
   icon_pack: fas
   name: Cite
-  url: https://ui.adsabs.harvard.edu/abs/2025ApJ...988L..19J/exportcitation
+  url: https://ui.adsabs.harvard.edu/abs/2025arXiv251214212W/exportcitation
 
-url_pdf: "https://arxiv.org/pdf/2507.05340"
+url_pdf: "https://arxiv.org/pdf/2512.14212"
 
 slides: ""
 
 ---
 
-# Explaining the masses of ultra-massive "universe-breaking" galaxies
+# The physics of galaxies in the baby Universe
 
-What do you do when observations break your theory?
+State-of-the-field, ultra high redshfit galaxy abundances being a tough thing to reproduce theoretically
 
-That’s the situation galaxy physics has faced since the JWST started discovering both extremely distant galaxies, along with **ultra-massive, quiescent galaxies** at redshifts 3–5 — galaxies more massive than our Milky Way, already completely dead quenched just 1 billion years after the Big Bang. We see this in **spectra** from JWST, like the ones below from the EXCELS survey (blue lines), where we can fit models (black lines) to infer the star formation history. On a sidenote, one of the reasons that I like working with quiescent galaxies is that we have much better models for them than other galaxies, just admire how well the models fit the data! That's not always a given, which you can read about [in this other project](https://astrockragh.github.io/project/ir_optical/).
+![A figure showing the observed luminosity function along with pre- and post-JWST models](/project/measuring_clustering_cosmic_variance/NaiduPrePostJWST.png)
 
-![The spectra of our galaxies from Carnall+2024](/project/most_massive_environment/spectra.png)
+What models have been proposed so far. Focus on the most popular ones, meaning the bursty star formation and the feedback free model, which appropriate links and citations (for example https://arxiv.org/pdf/2305.02713, https://arxiv.org/pdf/2303.04827). You can also
+
+
 
 We have struggled to explain how these galaxies could form stars so rapidly and shut off star formation this early. Theories have invoked extreme star formation efficiencies (close to 100%!), very exotic feedback mechanisms, or even modifications to our well-tested ΛCDM-cosmology. This has all come from statistical analyses of an idealized distribution of galaxies by total mass, the stellar mass function (SMF), using a technique called **Extreme Value Statistics (EVS)**, which is designed to ask the question:
 
 ```What is the probability distribution for the mass of the most massive galaxy I will observe in a certain volume of the Universe```
 
-#### But what if we’ve just been asking the wrong question?
+# 
 
 Normal EVS makes the assumption that all galaxies are independent from each other --- but this just is not true!
 
