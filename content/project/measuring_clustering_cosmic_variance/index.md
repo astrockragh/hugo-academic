@@ -66,84 +66,64 @@ However, JWST is almost perfectly constructed to not be able to measure correlat
 
 ## The new method - Cosmic Variance
 
-While JWST is ideally unsuited for 2 point correlation functions and classical clustering analyses, we just need to be a little creative and come up with new ways of measuring clustering. Our new method leverages another consequence of high clustering --- that the number counts of galaxies between different fields vary increasingly with increasing clustering amplitudes. This clustering-induced field-to-field variance is known as **cosmic variance**, and it is something I have worked on extensively (references)
+While JWST is ideally unsuited for 2 point correlation functions and classical clustering analyses, we just need to be a little creative and come up with new ways of measuring clustering. Our new method leverages another consequence of high clustering --- that the number counts of galaxies between different fields vary increasingly with increasing clustering amplitudes. This clustering-induced field-to-field variance is known as **cosmic variance**, and it is something [I have worked on extensively](https://astrockragh.github.io/project). In short, it makes the amount of galaxies in a given field more dispersed, so that some fields are basically empty, whereas others host enormous amounts of galaxies. You can see a demonstration of how increasing clustering variance gives a higher two-point function amplitude and more dispersed number counts in simulated fields in the Figure below.
 
-Figure showing two-point correlation functions, Number count histograms and simulated fields for 3 differnt clustering strengths.
+--- Figure showing two-point correlation functions, Number count histograms and simulated fields for 3 differnt clustering strengths.
 
-Therefore, if we have enough sampled independent fields, we can .... . Luckily, JWST __IS__ ideally suited to this kind of observation through what is called the pure-parallel observing mode. 
+Therefore, if we have enough sampled independent fields, we can directly **measure** the clustering amplitude . Luckily, JWST __IS__ ideally suited to this kind of observation through what is called the pure-parallel observing mode. 
 
 ![PANORAMIC logo](PANORAMIC_logo.png)
 ![Overview of the PANORAMIC pointings](PANORAMIC_footprint.png)
 
-#### The Likelihood Function
+#### Techinal Notes - The Likelihood Function
+
+#### Relationship to other concepts - are we just reinventing old ideas?
+
+For example, Coles and Jones 1991 (https://articles.adsabs.harvard.edu/pdf/1991MNRAS.248....1C), for generating log-normal fields, and saying that one can derive galaxy biases from these fields. (This paper also contains a great ssection on how to simulate realistic galaxy fields given some clustering amplitude/structure!)
+
+This also should include the book by Peebles 1980 and the Adelberger et al. 1998 paper on the Counts-in-Cells statistics of clustered galaxy fields.
+
+Newman and Scott 1952 https://articles.adsabs.harvard.edu/pdf/1952ApJ...116..144N where it is established that the counts-in-cells of galaxies has a super-Poissonian variance due to clustering from gravity.
+
+Void probability functions are another spin on exactly this same thing, but of course the inverse.
+
+One-point statistics for constraining cosmology by Cora Uhlemann's recent work (e.g., [this nice paper from 2020](https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.4006U/abstract)). One-point/counts-in-cells functions are apparently really good at constraining the neutrino mass!
+
+And [this wonderful paper by Brant Robertson](https://ui.adsabs.harvard.edu/abs/2010ApJ...716L.229R/abstract) which quite literally suggests the exact same thing that we ended coming up. It is an amazing paper, and made a lot of the points that we ended up fumbling our way to. E.g., you need to compare to simulations, for these small fields analytic theory does not work very well, you're biased low if you do the same thing by chopping up continuous fields, many great things! Overall I just love this paper, and the method has been severely underrated and underutilized. 
+
+Other papers worth mentioning are López-Sanjuan et al. 2015 (https://www.aanda.org/articles/aa/pdf/2015/10/aa26731-15.pdf) and Cameron et al. 2019 (https://academic.oup.com/mnras/article/483/2/1922/5173113), which also measure galaxy clustering amplitudes using the cosmic variance/counts-in-cells method in the ALHAMBRA and BoRG surveys, respectively. 
+
+So what is the novelty for us? Well, we push the highest-z applications from z~2 to z~10, giving the first ever z ≥ 10 measurement of the galaxy clustering amplitude, and it is the first time that this method has been used with JWST. Furthermore, we find some really interesting tensions that I'll show now!
+
+# So now, what do we then actually measure in the real Universe?
+
+So now we have two independent methods for measuring clustering, which can be applied to two independent datasets. That means that we should be able to combine any conclusions drawn from these analyses. Let's take a look at what we get!
+
+## Traditional clustering method
+
+Below, I show the results that we derived [using a traditional HOD approach in the COSMOS-Web survey](https://ui.adsabs.harvard.edu/abs/2025A%26A...702A.163P/abstract). There is a lot of information on this plot, so let us take a look at the most important parts.
+
+1. Our measurements are shown in ... 
+2. The relevant models to look 
+
+[Figure showing the measured clustering amplitude in COSMOS-Web](/project/measuring_clustering_cosmic_variance/COSMOS_clustering_results.png)
+
+## Cosmic Variance method
 
 
-## The Real Question: Where Are These Galaxies Found?
 
-Every single one of these beautiful, ultra-massive, quiescent galaxies lives in an **overdensity**, regions with significantly more galaxies than average. The overdensities reflect the fact that galaxies **cluster**, i.e., they are not randomly distributed on the sky. However, until now,theoretical predictions have treated these galaxies as if they live in average, unclustered, environments.
+# What does this mean for galaxy physics?
 
-That’s like estimating the wealth of the richest person *in the world* by starting from the mean and spread in a random city. You're going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the video below, where on of our galaxies of interest is marked in blue
+They cannot be bursty
 
-<video controls width="100%">
-  <source src="/project/most_massive_environment/zoom_tour.mp4" type="video/mp4">
-</video>
+# What now?
 
-#### It is clear that our galaxy is in the middle of a very dense part of the Universe!
+JWST will continue on being an incredible discovery machine, and PANORAMIC is not the only pure parallel survey out there
 
----
+Another thing is that we need to extend and validate the framework at lower redshift, so that we can also connect clustering at all redshifts, measured from both of these independent methods
 
-## The Insight That Changes Everything
+## Public Code?
 
-This paper introduces an extended version of EVS that includes a galaxy’s **environment** — specifically, the overdensity it lives in — when estimating the expected maximum stellar mass. Instead of marginalizing over environments (which dilutes everything), we condition on the known fact that the galaxy is in an extreme region. How?
-
-1. **Estimate the volume** of the overdensity using 3D redshift-space distributions.
-2. **Compute how overdense** such a volume could reasonably be expected to in the full survey — i.e., the distribution of **density percentile** `u_δ` given that we can fit N subvolumes of the same size as the overdensity into our survey.
-3. **Construct stellar mass functions (SMF)** that depends on `u_δ`. More overdense = more galaxies, especially at high masses.
-4. Convolve the normal EVS estimates for each **overdensity-dependent SMF** with the distribution of possible overdensities given a certain volume to compute the distribution of the most massive galaxy **given that it exists in the most extreme overdensity in that survey** with a given volume.
-
-You can see how our `P(Maximum mass)` estimates change as a function on the number of total overdensities of a given volume we sample below
-
-<video controls width="100%">
-  <source src="/project/most_massive_environment/0_phimax.mp4" type="video/mp4">
-</video>
-
-In a way this is the compliment to [another one of my papers on massive galaxies in a clustered Universe](https://astrockragh.github.io/project/most_massive_jwst/), where we instead of **conditioning** on environment like here, marginalize out our lack of knowledge of the environment. For many galaxies, especially at ultra-high redshift, *we do not know their environments*, so there, the above conditioning steps would be inappropriate!
-
----
-
-## The Result: They're Not So Impossible After All
-
-When we apply this method to the three most extreme galaxies in the [EXCELS survey](https://ui.adsabs.harvard.edu/abs/2024MNRAS.534..325C/abstract) — including the infamous ZF-UDS-7329 galaxy — the tension with theoretical models *drops dramatically*.
-
-* Under the standard EVS (ignoring environment and using normal star formation efficiencies), some galaxies were at a model tension of almost **6σ**, and combining all three, we get a total of **9σ**!! Alarming!
-* When we **condition on overdensity**, this drops to **\~3σ** for the most extreme galaxy. So the galaxy is still extreme, but within acceptable limits. Remember that we could invoke higher star formation efficiency, but it is not that necessary now.
-* You don’t need 100% star formation efficiency anymore. The pre-JWST \~10-20% values works just fine!
-
-This is all summarized in the below Figure, where you can see the mass histories of the galaxies in dotted blue. The alleviated tension is immediately obvious!
-
-![Main Figure from the paper](combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2.png)
-
----
-
-## So… Was This Really a Crisis? Or a Misunderstanding?
-
-Let’s be blunt. Much of the tension arose not because the models were fundamentally wrong, but because we were comparing the rarest galaxies in the universe to average expectations. By conditioning on where these galaxies actually live — **the most overdense regions of the sky** — we reconcile theory and observation without invoking extreme physics.
-
-It’s a small shift in logic, but a sizable step in understanding.
-
-In a way, [this reflects the thoughts of the original discover of the extreme ZF-UDS-7329, Karl Glazebrook](https://ui.adsabs.harvard.edu/abs/2024Natur.628..277G/abstract), who suggested that we may be missing something about halo physics that makes dark matter collapse faster early on --- a seemingly radical idea. However, this is actually exactly what happens in extreme overdensities, halos collapse earlier and grow faster than in average areas, so in a way, Prof. Glazebrook was right!
+I am very sorry to say ***not yet***, but once the paper is officially accepted, I will release the full analysis code on [my GitHub](https://github.com/astrockragh/), including a demo notebook with simulated data! I unfortunately cannot share collaboration data myself, but I will make the methodology as accessible as possible. On that note, please reach out to me if you have any questions, or if you would like help  
 
 ---
-
-## 🛠 Want to Try This Yourself?
-
-We've released the full code for environment-conditioned EVS on [GitHub](https://github.com/astrockragh/evs_clustering), including a demo notebook!
-
----
-
-## 🚀 Why This Matters for Galaxy Evolution
-
-* We now have a **physically-motivated way** to model massive galaxy formation without stretching SFE or tweaking dark matter in new ways.
-* We **connect large-scale structure and galaxy masses** in a statistical framework. Clustering is **always** important. One of the important next steps is measuring the amplitude of clustering at these redshifts, but this is something that I am currently working on!
-
-This is not the end of the mystery — but it’s the **beginning of the asking right question**.
