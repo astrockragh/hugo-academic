@@ -4,7 +4,7 @@ summary: Numerous models have been proposed to explain the unexpected wealth of 
 tags:
 - Galaxies
 - Observations
-date: "2026-03-13T00:00:00Z"
+date: "2026-03-11T00:00:00Z"
 draft: false
 featured: true
 math: true
