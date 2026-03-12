@@ -142,9 +142,9 @@ Of course the US situation, the uncertainty meant that
 
 ## Which parts are enjoyable and which are not?
 
-Things I like: dreaming
+Things I like: dreaming, being ambitious, being creative.
 
-Things I do not like: cover letters
+Things I do not like: cover letters, 
 
 ### Random things I learned
 
@@ -156,4 +156,9 @@ Things I do not like: cover letters
 
 ### The Spergel Curve of Applicant Happiness
 
-As I was quite anxious about the application season, I wanted to be on the safe side with the number of applications I sent. As you can see in the [Statistics section](#statistics), this worked way better than I expected, resulting in 10 total Fellowship offers. This is of course great
+As I was quite anxious about the application season, I wanted to be on the safe side with the number of applications I sent. As you can see in the [Statistics section](#statistics), this worked way better than I expected, resulting in 10 total Fellowship offers. This is of course great, but it also means that you end up having to make a very difficult decision. You will have to disappoint other people, disappoint yourself (as you will inevitably start dreaming about all the great science you could do in a given place), and overall go through an agonizing few weeks. That is why my advisor, David Spergel, has the following theory of applicant happiness
+
+![The David N. Spergel applicant happiness curve](spergel_happiness_curve.png)
+
+I'm not sure that I fully agree (having two offers may be better than one), but you do hit a point where the curve starts going down. His point in drawing out this curve was to get me calm down and apply to fewer things, since my feeling at the time was that at worst, I would get a lot of offers, and that that would be a good thing. In retrospect, it definitely does not make one happier, as having a lot of offers also carries some responsibility for quickly turning down things such that they can be offered to others, which makes the process even more stressful than otherwise.
+
