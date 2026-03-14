@@ -87,7 +87,10 @@ email: ""
 highlight_name: true
 ---
 
-I am a 5th and final-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University. I am advised by <a href="https://pmelchior.net/">Peter Melchior</a> and <a href="https://en.wikipedia.org/wiki/David_Spergel"> David N. Spergel</a>.
+I am a 5th and final-year PhD Candidate working at the [Department of Astrophysical Sciences](https://web.astro.princeton.edu) at Princeton University. I am advised by <a href="https://pmelchior.net/">Peter Melchior</a> and <a href="https://en.wikipedia.org/wiki/David_Spergel"> David N. Spergel</a>. 
+
+Starting from the summer of 2026, I will be a joint Eric and Wendy Schmidt AI in Science/Canadian Institute for Theoretical Physics (CITA) Postdoctoral Fellow. I will spend two years in Toronto, working primarily with [Josh Speagle](http://joshspeagle.com/), followed by two years in wonderful Montréal, working with [Laurence Perreault Levasseur](https://www.simonsfoundation.org/people/laurence-levasseur/) and her group. 
+
 I work on applying new statistical methods to astrophysics, integrating inductive biases, geometric and physical constraints into well-calibrated Bayesian and Machine Learning models. My main interests are extragalactic, but I am interested in almost all areas of astronomy (e.g., the molecular structure of interstellar dust). My thesis will focus on constructing a link between low-dimensional representations of dark-matter only cosmological simulations and observed galaxy spectra. This will be achieved with data from the <a href="https://pfs.ipmu.jp/"> Prime Focus Spectrograph (PFS)</a>, which I optimize by understanding and using the emission of the atmosphere itself ([airglow](http://dx.doi.org/10.1117/12.3018016)) to improve the instrument calibration. 
 
 As you may be able to tell, I love integrating my science vertically, from instruments to analyses. In short, I like **modelling** and **measuring** (astronomy-related) things, so if you have problems meeting any of these criteria, I will be excited to work with you!
@@ -100,6 +103,6 @@ I love showing our wonderful universe to the public, and I frequently lead the [
 Outside of academia, I like all things to do with mountains, oceans, and gardening (I organize the [local community garden](https://lakesidecommittee.princeton.edu/lakeside-community-garden/)).<br/>
 Originally from Denmark, I obtained my Bachelor's degree from the [Niels Bohr Institute](https://nbi.ku.dk/english/) at the University of Copenhagen in 2021, with a [thesis](https://astrockragh.github.io/project/neutrino_ml/) on Neutrino Detection in IceCube.
 
-Last updated Oct 11th, 2025.
+Last updated Mar 13th, 2026.
 
  <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

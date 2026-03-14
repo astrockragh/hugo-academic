@@ -22,12 +22,15 @@ main:
   - name: Press and Public Talks
     url: '#press'
     weight: 60
+  - name: Want to work with me?
+    url: '#workwithme'
+    weight: 70
   - name: Contact
     url: '#contact'
-    weight: 70
+    weight: 80
   - name: CV
     url: uploads/CV_Oct2025.pdf
-    weight: 80
+    weight: 90
   # - name: CV
   #   url: static/uploads/CV_example.pdf
   #   weight: 80
