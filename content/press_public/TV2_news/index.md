@@ -27,7 +27,7 @@ featured: false
 
 image:
   caption: 'Me and my two friends Johann and Jonas being interviewed early in the morning about our gamma ray burst project.'
-  focal_point: Center
+  focal_point: Top
 
 url_code: "https://github.com/astrockragh/GRB_TSNE"
 url_pdf: "https://arxiv.org/pdf/2005.13554.pdf"

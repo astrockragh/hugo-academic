@@ -19,7 +19,7 @@ design:
 
 <div style="flex: 2;">
 
-Now that I hold few different Fellowships across the University of Toronto and CITA, with long-term visiting positions at [Université de Montréal](https://www.umontreal.ca/) (~2 months/year) and [Stockholm University](https://www.su.se/english/) (~1 month/year), I am excited to collaborate with students across **astronomy, statistics, machine learning, and physics** — whether you're working on applied inference, making neural networks behave for science, or just curious about astrophysics.
+Now that I hold few different Fellowships across the University of Toronto and CITA, with long-term visits at [Université de Montréal](https://www.umontreal.ca/) (~2 months/year) and [Stockholm University](https://www.su.se/english/) (~1 month/year), I am excited to collaborate with students across **astronomy, statistics, machine learning, and physics** — whether you're working on applied inference, making neural networks behave for science, or just curious about astrophysics.
 
 I have opportunities for **graduate students** and **undergraduate/bachelor's students**, including a dedicated funding track for students from Nordic countries.
 
