@@ -17,7 +17,7 @@ slides: ""
 ---
 <img src="old.jpg" alt="Teaching about Graph Neural Networks at the Kavli Institute for Theoretical Physics in 2023" style="width: 60%; display: block; margin: 18pt auto;">
 
-Now that I hold a few different Fellowships across the University of Toronto and CITA, with long-term visiting positions at [Université de Montréal](https://www.umontreal.ca/) (~2 months/year) and [Stockholm University](https://www.su.se/english/) (~1 month/year), I am so excited to collaborate with students across **astronomy, statistics, machine learning, and physics**. Whether you're puzzling over an applied inference problem, trying to make neural networks behave for doing science, or just curious about astrophysics — we can find a lot of common ground. Here you can find some information about possibilities for working with me!
+Now that I hold a few different Fellowships across the University of Toronto and CITA, with long-term visits at [Université de Montréal](https://www.umontreal.ca/) (~2 months/year) and [Stockholm University](https://www.su.se/english/) (~1 month/year), I am so excited to collaborate with students across **astronomy, statistics, machine learning, and physics**. Whether you're puzzling over an applied inference problem, trying to make neural networks behave for doing science, or just curious about astrophysics — we can find a lot of common ground. Here you can find some information about possibilities for working with me!
 
 I am very excited to work with graduate students, but you will have to already be in a graduate program, I cannot help with getting you in. However, if you're an undergraduate/bachelor's student, I can! Below, you can find more details.
 
