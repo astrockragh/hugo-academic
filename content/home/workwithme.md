@@ -13,7 +13,7 @@ design:
 <div style="flex: 1;">
 
 # [Want to work with me?](/workwithme/)
-![Teaching about Graph Neural Networks at the Kavli Institute for Theoretical Physics in 2023](/workwithme/featured_trimmed.jpg)
+![Teaching about Graph Neural Networks at the Kavli Institute for Theoretical Physics in 2023](/workwithme/trimmed.jpg)
 
 </div>
 
