@@ -3,7 +3,7 @@ title: "Post-doc Market I: Personal Reflections"
 subtitle:
 
 # Summary for listings and search engines
-summary: The postdoctoral job market is one of the major challenges to any finishing graduate student wishing to continue in academia. Here I want to provide some lessons learned and personal reflections for both other and my future self.
+summary: The postdoctoral job market is one of the major challenges anyone wishing to work in academia must face. Here I want to provide some lessons learned and personal reflections for both other and my future self.
 
 # Link this post with a project
 projects: []
@@ -34,7 +34,7 @@ Having just gone through the gruelling experience of applying for postdoctoral p
 
 I will also preface this by saying that my experiences are of course mainly applicable to others in astronomy and AI for Science. I was also very fortunate on the market this year, and I want to be upfront about the advantages I had: being at Princeton, having exceptional advisors, and working in a subfield (machine learning for astrophysics) that is currently in high demand. These things matter, and I will try to be honest about where they helped. I also want to encourage anyone with questions to reach out at [ckragh [at] princeton.edu](mailto:ckragh@princeton.edu) (or whichever email I have when you are reading this).
 
-For a more quantitative companion post, where I try to build a forward model of the stochasticity in the application process, see the [second post in this series](https://astrockragh.github.io/post/).
+For a more quantitative companion post, where I try to build a forward model/simulation of the market to measure the stochasticity in the application process (among other things), see the [second post in this series](https://astrockragh.github.io/post/). You can see this post as the qualitative part of my reflections, and the second, simulation-based, post as the quantitative part.
 
 ## What kind of postdoctoral positions exist?
 
