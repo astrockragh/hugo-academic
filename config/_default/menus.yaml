@@ -29,7 +29,7 @@ main:
     url: '#contact'
     weight: 80
   - name: CV
-    url: uploads/CV_Oct2025.pdf
+    url: uploads/CV_Mar2026.pdf
     weight: 90
   # - name: CV
   #   url: static/uploads/CV_example.pdf

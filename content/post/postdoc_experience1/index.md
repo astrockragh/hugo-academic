@@ -9,7 +9,7 @@ summary: The postdoctoral job market is one of the major challenges anyone wishi
 projects: []
 
 # Date published
-date: "2026-02-18T00:00:00Z"
+date: "2026-03-13T00:00:00Z"
 
 # Date updated
 lastmod: "2026-03-13T00:00:00Z"
