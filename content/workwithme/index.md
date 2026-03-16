@@ -66,7 +66,7 @@ There are several excellent funding mechanisms for Canadian undergraduates to do
 
 ---
 
-## 🌍 International Students — Including a Special Track for Nordic Countries
+## 🌍 International Students — Including a Special Track for Nordic Countries 🇩🇰 🇳🇴 🇸🇪
 
 I am especially enthusiastic about hosting international undergraduate students for summer projects, and I will have some **additional funding** available for students from **Scandinavian countries** (Denmark, Sweden, and Norway) to cover travel, lodging, and salary (think of it as a `studiejob`).
 

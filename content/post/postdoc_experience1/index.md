@@ -1,5 +1,5 @@
 ---
-title: "Post-doc market reflections I: Personal Reflections"
+title: "Post-doc Market I: Personal Reflections"
 subtitle:
 
 # Summary for listings and search engines
