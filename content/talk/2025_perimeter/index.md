@@ -13,6 +13,7 @@ links: []
 publishDate: 2025-09-04T00:00:00.000Z
 tags: [Invited]
 projects:
+  - measuring_clustering_cosmic_variance
   - most_massive_JWST
   - most_massive_environment
 image:
