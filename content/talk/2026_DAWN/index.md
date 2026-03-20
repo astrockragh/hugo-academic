@@ -1,0 +1,24 @@
+---
+# put the abstract below the line
+abstract: 
+url_pdf: ""
+title: "Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Charting Cosmic Dawn in Copenhagen"
+location: Helsingør, Denmark
+date: 2026-04-17T11:00:00.000Z
+# date_end: 2022-01-12T15:00:00.000Z
+all_day: false
+featured: false
+authors: []
+links: []
+publishDate: 2025-09-04T00:00:00.000Z
+tags: [Contributed]
+projects:
+  - measuring_clustering_cosmic_variance
+  - most_massive_JWST
+  - most_massive_environment
+  
+image:
+  caption: ""
+  focal_point: Right
+  filename: featured.png
+---
