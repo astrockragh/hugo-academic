@@ -20,6 +20,9 @@ draft: false
 # Show this page in the Featured widget?
 featured: false
 
+links:
+url_code: "https://github.com/astrockragh/postdoc_market_simulation"
+
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
