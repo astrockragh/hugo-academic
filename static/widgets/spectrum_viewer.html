@@ -602,6 +602,7 @@ function lorentzianConvolve(arr, wavelengths, tauCm) {
   const halfW = Math.min(Math.ceil(50 * tauAng / dx), n - 1);
   if (halfW === 0) return arr.slice();
 
+  
   // Build normalised Lorentzian kernel
   const kernel = new Float64Array(2 * halfW + 1);
   const gamma2 = tauAng * tauAng;
