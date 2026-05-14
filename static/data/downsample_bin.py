@@ -1,8 +1,8 @@
 """Downsample the precomputed spectra binary from 2000 to 500 wavelength points."""
 import numpy as np, json, os
 
-INPUT_BIN   = 'mol_spectra_data_Cs_big.bin'
-INPUT_INDEX = 'mol_spectra_index_Cs_big.json'
+INPUT_BIN   = '../../raw_data/mol_spectra_data_Cs_big.bin'
+INPUT_INDEX = 'mol_spectra_index_Cs_big.json'  # index is small, stays in static/data
 OUTPUT_BIN   = 'mol_spectra_data_Cs_1000.bin'
 OUTPUT_INDEX = 'mol_spectra_index_Cs_1000.json'
 STEP = 2  # 2000 / 4 = 500
