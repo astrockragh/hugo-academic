@@ -855,6 +855,37 @@ const scheduleUpdate = () => {
 };
 
 // ═══════════════════════════════════════════════════════════════════════════
+// ENFORCE A >= B >= C
+// When one rotational constant changes, clamp the others so the ordering
+// is always maintained. Updates both `cur` and the slider UI.
+// ═══════════════════════════════════════════════════════════════════════════
+function enforceABC(changed) {
+  if (changed === 'A') {
+    // A was moved: pull B and C down if needed
+    if (cur.B > cur.A) cur.B = cur.A;
+    if (cur.C > cur.B) cur.C = cur.B;
+  } else if (changed === 'B') {
+    // B was moved: push A up or pull C down
+    if (cur.B > cur.A) cur.A = cur.B;
+    if (cur.C > cur.B) cur.C = cur.B;
+  } else if (changed === 'C') {
+    // C was moved: push B (and possibly A) up
+    if (cur.C > cur.B) cur.B = cur.C;
+    if (cur.B > cur.A) cur.A = cur.B;
+  }
+  // Sync sliders and displayed values
+  for (const key of ['A', 'B', 'C']) {
+    const sl = document.getElementById(`ps-${key}`);
+    if (sl && parseFloat(sl.value) !== cur[key]) {
+      sl.value = cur[key];
+      setSliderFill(sl, parseFloat(sl.min), parseFloat(sl.max), cur[key]);
+      const valEl = sl.parentElement.querySelector('.p-val');
+      if (valEl) valEl.textContent = fmtVal(key, cur[key]);
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
 // CONTROLS — PHYSICAL PARAMETERS
 // ═══════════════════════════════════════════════════════════════════════════
 function buildControls() {
@@ -889,6 +920,8 @@ function buildControls() {
       cur[id] = v;
       valEl.textContent = fmtVal(id, v);
       setSliderFill(slider, min, max, v);
+      // Enforce A >= B >= C
+      if (id === 'A' || id === 'B' || id === 'C') enforceABC(id);
       scheduleUpdate();
     });
 
