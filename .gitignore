@@ -9,3 +9,4 @@ node_modules/
 hugo
 content/post/postdoc_experience2/simulation_code
 .claude
+static/data/mol_spectra_data_Cs_big.bin
