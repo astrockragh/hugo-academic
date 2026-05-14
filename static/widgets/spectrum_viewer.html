@@ -286,17 +286,17 @@ input[type=range]::-moz-range-track { height: 3px; border-radius: 2px; }
       <div class="p-row">
         <div class="p-meta">
           <span class="p-name">τ<span class="p-unit">cm⁻¹</span></span>
-          <span class="p-val" id="pv-lorentz-tau">0.0100</span>
+          <span class="p-val" id="pv-lorentz-tau">0.300</span>
         </div>
-        <input type="range" id="ps-lorentz-tau" min="0.001" max="1.0" step="0.001" value="0.01">
+        <input type="range" id="ps-lorentz-tau" min="0.001" max="1.0" step="0.001" value="0.30">
       </div>
       <!-- σ (Gaussian) applied online -->
       <div class="p-row">
         <div class="p-meta">
           <span class="p-name">σ<span class="p-unit">cm⁻¹</span></span>
-          <span class="p-val" id="pv-gauss-sigma">0.100</span>
+          <span class="p-val" id="pv-gauss-sigma">0.300</span>
         </div>
-        <input type="range" id="ps-gauss-sigma" min="0.01" max="0.5" step="0.01" value="0.10">
+        <input type="range" id="ps-gauss-sigma" min="0.01" max="0.5" step="0.01" value="0.30">
       </div>
     </div>
   </div>
@@ -391,8 +391,8 @@ const PARAM_DEFS = [
 ];
 
 // Broadening applied online (not in nearest-neighbour lookup)
-let lorentzTau = 0.01;  // cm⁻¹
-let gaussSigma = 0.10;  // cm⁻¹
+let lorentzTau = 0.30;  // cm⁻¹
+let gaussSigma = 0.30;  // cm⁻¹
 
 // ═══════════════════════════════════════════════════════════════════════════
 // STATE
@@ -591,9 +591,10 @@ function lorentzianConvolve(arr, wavelengths, tauCm) {
   const n = arr.length;
   if (tauCm <= 0 || n < 2) return arr.slice();
 
-  // Convert τ (HWHM) from cm⁻¹ to Å
+  // Convert τ (FWHM, PGOPHER convention) to HWHM in Å
   const lamC = WAV_CENTER;
-  const tauAng = (lamC * lamC / 1e8) * tauCm;
+  const hwhm = tauCm / 2;
+  const tauAng = (lamC * lamC / 1e8) * hwhm;
 
   const dx = (wavelengths[n - 1] - wavelengths[0]) / (n - 1);
 
