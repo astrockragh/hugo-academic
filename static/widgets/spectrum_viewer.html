@@ -370,8 +370,10 @@ input[type=range]::-moz-range-track { height: 3px; border-radius: 2px; }
 // ────────────────────────────────────────────────────────────────────────────
 // Set these to the paths of your binary data + index JSON.
 // If null, falls back to live JS approximation.
-const INDEX_URL = '/data/mol_spectra_index_Cs_1000.json';
-const BIN_URL   = '/data/mol_spectra_data_Cs_1000.bin';
+const DATA_URLS = {
+  cs:  { index: '/data/mol_spectra_index_Cs_1000.json',  bin: '/data/mol_spectra_data_Cs_1000.bin'  },
+  c2v: { index: '/data/mol_spectra_index_C2v_1000.json', bin: '/data/mol_spectra_data_C2v_1000.bin' },
+};
 
 // Wavelength axis used for live computation (Å, centred on band)
 const WAV_CENTER = 15272.272;
@@ -542,17 +544,31 @@ function nearestSpectrumIdx(params) {
   return best;
 }
 
-// Extract the 4 arrays for spectrum at index k from the binary buffer
+// Extract arrays for spectrum at index k from the binary buffer.
+// Supports both 4-array (Cs: ib, ic, dTb, dTc) and 2-array (C2v: ib, dTb) layouts.
+// The format is determined by preIndex.n_arrays (defaults to 4 for backward compat).
 function getSpectrumFromBin(k) {
-  const N = preIndex.n_wav;
-  // Binary layout: [wavelength: N] then per spectrum: [ib, ic, dTb, dTc] each N floats
-  const baseOffset = N + k * 4 * N;  // in Float32 units
-  return {
-    intensity_b:    new Float32Array(preBin, (baseOffset)         * 4, N),
-    intensity_c:    new Float32Array(preBin, (baseOffset + N)     * 4, N),
-    dT_intensity_b: new Float32Array(preBin, (baseOffset + 2 * N) * 4, N),
-    dT_intensity_c: new Float32Array(preBin, (baseOffset + 3 * N) * 4, N),
-  };
+  const N  = preIndex.n_wav;
+  const nA = preIndex.n_arrays || 4;  // arrays per spectrum
+  const baseOffset = N + k * nA * N;  // in Float32 units
+  const zeros = new Float32Array(N);   // shared empty array
+
+  if (nA === 4) {
+    return {
+      intensity_b:    new Float32Array(preBin, (baseOffset)         * 4, N),
+      intensity_c:    new Float32Array(preBin, (baseOffset + N)     * 4, N),
+      dT_intensity_b: new Float32Array(preBin, (baseOffset + 2 * N) * 4, N),
+      dT_intensity_c: new Float32Array(preBin, (baseOffset + 3 * N) * 4, N),
+    };
+  } else {
+    // 2-array layout: [intensity_b, dT_intensity_b]
+    return {
+      intensity_b:    new Float32Array(preBin, (baseOffset)     * 4, N),
+      intensity_c:    zeros,
+      dT_intensity_b: new Float32Array(preBin, (baseOffset + N) * 4, N),
+      dT_intensity_c: zeros,
+    };
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -787,11 +803,12 @@ function updatePlot() {
     x = preWavelength;
     spec = getSpectrumFromBin(k);
     const sp = preIndex.spectra[k];
+    const nA = preIndex.n_arrays || 4;
     const parts = PARAM_DEFS.map(([id]) => {
       const v = sp[id];
       return v !== undefined ? `${id}=${fmtVal(id, v)}` : null;
     }).filter(Boolean);
-    statusMsg = 'Nearest match · ' + parts.join(' · ');
+    statusMsg = `${symmetry.toUpperCase()} (${nA} arr) · Nearest match · ` + parts.join(' · ');
   } else {
     x = freqAxis;
     spec = computeSpectrumLive(cur);
@@ -948,7 +965,17 @@ function initMixingControls() {
     subEl.textContent = sym === 'c2v'
       ? 'C₂ᵥ · b-type · direct + dT'
       : `Cₛ · b + c type · r_BC = ${r_BC.toFixed(2)}`;
-    scheduleUpdate();
+    // Load the matching precomputed data set
+    loadPrecomputed(sym).then(ok => {
+      if (!ok) {
+        const statusEl = document.getElementById('status-msg');
+        statusEl.textContent = `No ${sym.toUpperCase()} data found — showing live approximation`;
+        const badge = document.getElementById('mode-badge');
+        badge.textContent = 'Live (no data)';
+        badge.classList.remove('precomputed');
+      }
+      updatePlot();
+    });
   }
 
   btnC2v.addEventListener('click', () => setSymmetry('c2v'));
@@ -1026,17 +1053,35 @@ function fmtVal(id, v) {
 // ═══════════════════════════════════════════════════════════════════════════
 // DATA LOADING
 // ═══════════════════════════════════════════════════════════════════════════
-async function loadPrecomputed() {
-  if (!INDEX_URL || !BIN_URL) return false;
+// Cache loaded data per symmetry so we don't re-fetch on toggle
+const preCache = { cs: null, c2v: null };
+
+async function loadPrecomputed(sym) {
+  sym = sym || symmetry;
+  const urls = DATA_URLS[sym];
+  if (!urls) return false;
+
+  // Return cached data if already loaded
+  if (preCache[sym]) {
+    preIndex      = preCache[sym].index;
+    preBin        = preCache[sym].bin;
+    preWavelength = preCache[sym].wav;
+    buildNNRanges();
+    const badge = document.getElementById('mode-badge');
+    badge.textContent = 'Pre-computed';
+    badge.classList.add('precomputed');
+    return true;
+  }
+
   const statusEl = document.getElementById('status-msg');
   try {
-    statusEl.textContent = 'Loading index…';
-    const idxResp = await fetch(INDEX_URL);
+    statusEl.textContent = `Loading ${sym.toUpperCase()} index…`;
+    const idxResp = await fetch(urls.index);
     if (!idxResp.ok) throw new Error(`Index HTTP ${idxResp.status}`);
     preIndex = await idxResp.json();
 
-    statusEl.textContent = `Loading spectra (${preIndex.n_spectra} × ${preIndex.n_wav} pts)…`;
-    const binResp = await fetch(BIN_URL);
+    statusEl.textContent = `Loading ${sym.toUpperCase()} spectra (${preIndex.n_spectra} × ${preIndex.n_wav} pts)…`;
+    const binResp = await fetch(urls.bin);
     if (!binResp.ok) throw new Error(`Bin HTTP ${binResp.status}`);
     preBin = await binResp.arrayBuffer();
 
@@ -1046,15 +1091,18 @@ async function loadPrecomputed() {
     // Build NN normalisation ranges once
     buildNNRanges();
 
+    // Cache for future toggles
+    preCache[sym] = { index: preIndex, bin: preBin, wav: preWavelength };
+
     const badge = document.getElementById('mode-badge');
     badge.textContent = 'Pre-computed';
     badge.classList.add('precomputed');
-    console.log(`[spectrum_viewer] Loaded ${preIndex.n_spectra} spectra, `
+    console.log(`[spectrum_viewer] Loaded ${sym.toUpperCase()}: ${preIndex.n_spectra} spectra, `
               + `${preIndex.n_wav} wavelength points, `
               + `${(preBin.byteLength / 1e6).toFixed(1)} MB binary`);
     return true;
   } catch (e) {
-    console.warn('[spectrum_viewer] Could not load pre-computed data — falling back to live mode.', e.message);
+    console.warn(`[spectrum_viewer] Could not load ${sym.toUpperCase()} data — falling back to live mode.`, e.message);
     preIndex = null; preBin = null; preWavelength = null;
     return false;
   }
